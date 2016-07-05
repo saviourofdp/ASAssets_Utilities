@@ -135,7 +135,7 @@ BEGIN
 
     SET i = 1;
     WHILE (i &lt;= CARDINALITY(inVector)) DO
-        IF (i &gt; 0) THEN
+        IF (i &gt; 1) THEN
             SET result = result || myDelimiter;
         END IF;
 
